@@ -16,10 +16,6 @@
     sh run-service.sh
 ```
 
-### Run Migration
-```sh
-    sh run-migration.sh
-```
 ### Generate Mock
 ```sh
     mockery --all --case underscore
@@ -28,25 +24,4 @@
 ### Run Test
 ```sh
     sh run-test.sh
-```
-
-### Demo Account
-```sh
-    SELLER : 
-    - email: seller@email.com
-    - password: qweasd123
-
-    BUYER : 
-    - email: buyer@email.com
-    - password: qweasd123
-```
-
-### Docs Swagger
-```sh
-    http://localhost:8080/docs/index.html
-```
-
-### Docs postman
-```sh
-    https://documenter.getpostman.com/view/1850032/Uz5CLJ9Q
 ```
