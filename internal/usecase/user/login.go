@@ -3,9 +3,9 @@ package user
 import (
 	"context"
 	"errors"
-	"gokomodo/domain/entity"
-	"gokomodo/pkg/exceptions"
-	"gokomodo/pkg/utils"
+	"ubersnap/domain/entity"
+	"ubersnap/pkg/exceptions"
+	"ubersnap/pkg/utils"
 
 	"github.com/hashicorp/go-multierror"
 )

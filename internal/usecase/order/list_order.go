@@ -2,11 +2,11 @@ package order
 
 import (
 	"context"
-	"gokomodo/domain/entity"
-	"gokomodo/domain/valueobject"
-	"gokomodo/internal/delivery/request"
-	"gokomodo/pkg/common"
-	"gokomodo/pkg/exceptions"
+	"ubersnap/domain/entity"
+	"ubersnap/domain/valueobject"
+	"ubersnap/internal/delivery/request"
+	"ubersnap/pkg/common"
+	"ubersnap/pkg/exceptions"
 
 	"github.com/hashicorp/go-multierror"
 )

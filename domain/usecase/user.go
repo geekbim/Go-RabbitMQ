@@ -2,8 +2,8 @@ package usecase
 
 import (
 	"context"
-	"gokomodo/domain/entity"
-	"gokomodo/pkg/exceptions"
+	"ubersnap/domain/entity"
+	"ubersnap/pkg/exceptions"
 )
 
 type UserUseCase interface {

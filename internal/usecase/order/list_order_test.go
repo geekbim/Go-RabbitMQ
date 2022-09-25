@@ -3,11 +3,11 @@ package order_test
 import (
 	"context"
 	"errors"
-	"gokomodo/domain/entity"
-	order_usecase "gokomodo/internal/usecase/order"
-	"gokomodo/mocks"
-	"gokomodo/test/testdata"
 	"testing"
+	"ubersnap/domain/entity"
+	order_usecase "ubersnap/internal/usecase/order"
+	"ubersnap/mocks"
+	"ubersnap/test/testdata"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

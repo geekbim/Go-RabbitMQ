@@ -3,10 +3,10 @@ package product_test
 import (
 	"context"
 	"errors"
-	product_usecase "gokomodo/internal/usecase/product"
-	"gokomodo/mocks"
-	"gokomodo/test/testdata"
 	"testing"
+	product_usecase "ubersnap/internal/usecase/product"
+	"ubersnap/mocks"
+	"ubersnap/test/testdata"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"gokomodo/domain/entity"
+	"ubersnap/domain/entity"
 )
 
 type UserRepository interface {

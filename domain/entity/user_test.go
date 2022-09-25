@@ -2,9 +2,9 @@ package entity_test
 
 import (
 	"errors"
-	"gokomodo/domain/entity"
-	"gokomodo/test/testdata"
 	"testing"
+	"ubersnap/domain/entity"
+	"ubersnap/test/testdata"
 
 	"github.com/stretchr/testify/assert"
 )

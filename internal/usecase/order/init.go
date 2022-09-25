@@ -1,8 +1,8 @@
 package order
 
 import (
-	"gokomodo/domain/repository"
-	"gokomodo/domain/usecase"
+	"ubersnap/domain/repository"
+	"ubersnap/domain/usecase"
 )
 
 type orderInteractor struct {

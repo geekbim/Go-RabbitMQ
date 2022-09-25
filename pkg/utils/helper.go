@@ -1,23 +1,7 @@
 package utils
 
-import (
-	"strconv"
+import "github.com/google/uuid"
 
-	"golang.org/x/crypto/bcrypt"
-)
-
-func CheckPasswordHash(password, hash string) bool {
-	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
-
-	return err == nil
-}
-
-func StringToInt(value string) (conv int) {
-	if value != "" {
-		conv, _ = strconv.Atoi(value)
-	}
-	if value == "" {
-		conv = 0
-	}
-	return
+func GenerateUUID() string {
+	return uuid.New().String()
 }

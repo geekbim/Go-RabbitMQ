@@ -2,9 +2,8 @@ package entity
 
 import (
 	"errors"
-	"gokomodo/domain/valueobject"
-	"gokomodo/pkg/common"
 	"time"
+	"ubersnap/pkg/common"
 
 	"github.com/hashicorp/go-multierror"
 )
@@ -15,7 +14,6 @@ type User struct {
 	Name      string
 	Password  string
 	Address   string
-	Role      *valueobject.Role
 	CreatedAt time.Time
 	UpdatedAt time.Time
 }
