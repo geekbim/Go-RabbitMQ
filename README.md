@@ -1,4 +1,4 @@
-## Go Rest DDD V2
+## Go RabbitMQ
 
 ### Run App With Docker
 ```sh
